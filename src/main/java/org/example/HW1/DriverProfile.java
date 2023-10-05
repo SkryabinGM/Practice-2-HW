@@ -1,7 +1,7 @@
 package org.example.HW1;
 
 public class DriverProfile extends WorkerProfile {
-    String drivingLicence;
+    private String drivingLicence;
     public DriverProfile(String name, Integer age, Integer salary, String drivingLicence) {
         super(name, age, salary);
         this.drivingLicence = drivingLicence;
